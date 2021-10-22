@@ -1,6 +1,6 @@
 # lab1
  
-## ЗАДАНИЕ 1 - 
+## TASK 1 - 
 `root@d4e8f3ca43df:~# cd /home`
 
 `root@d4e8f3ca43df:/home# ls -F --color `
@@ -13,7 +13,7 @@
 
 **temp1/  temp2/  test/  umar1/  user/  user1/  user2/  user3/**
 
-## ЗАДАНИЕ 2 - 
+## TASK 2 - 
 
 `root@d4e8f3ca43df:/home# rmdir umar1`
 
@@ -21,31 +21,31 @@
 
 **temp1/  temp2/  test/  user/  user1/  user2/  user3/**
 
-## ЗАДАНИЕ 3 - 
+## TASK 3 - 
 
 `root@d4e8f3ca43df:~# uname -a`
 
 **Linux d4e8f3ca43df 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64 x86_64 x86_64 GNU/Linux**
 
-## ЗАДАНИЕ 4 - 
+## TASK 4 - 
 
 `root@d4e8f3ca43df:~# uname -s`
 
 **Linux**
 
-## ЗАДАНИЕ 5 - 
+## TASK 5 - 
 
 `root@d4e8f3ca43df:~# uname -r`
 
 **4.19.0-16-amd64**
 
-## ЗАДАНИЕ 6 - 
+## TASK 6 - 
 
 `root@d4e8f3ca43df:~# date`
 
 **Fri Oct 15 12:46:03 UTC 2021**
 
-## ЗАДАНИЕ 7 - 
+## TASK 7 - 
 
 `root@d4e8f3ca43df:~# cal`
     
@@ -58,33 +58,33 @@ Su Mo Tu We Th Fr Sa
 24 25 26 27 28 29 30  
 31                  
 
-## ЗАДАНИЕ 8 -
+## TASK 8 -
 
 **&&**
 
-## ЗАДАНИЕ 9 -
+## TASK 9 -
 
 **clear**
 
-## ЗАДАНИЕ 10 - 
+## TASK 10 - 
 
 **команда pwd**
 
-## ЗАДАНИЕ 11 - 
+## TASK 11 - 
 
 **root@d4e8f3ca43df:/home# cd user**
 
-## ЗАДАНИЕ 12 - 
+## TASK 12 - 
 
 `root@d4e8f3ca43df:~# ls`
 
-curutum  test  test1  umar
+curutum  test  test1  marat
 
 `root@d4e8f3ca43df:~# ls -R`
 
 .:
 
-curutum  test  test1  umar
+curutum  test  test1  marat
 
 ./curutum:
 
@@ -108,19 +108,19 @@ subtest2
 
 ./test1/subtest2:
 
-./umar:
+./maratr:
 
 subumar
 
-./umar/subumar:
+./marat/submarat:
 
-## ЗАДАНИЕ 13 - 
+## TASK 13 - 
 
 `root@d4e8f3ca43df:/# ls -a`
 **.   .dockerenv  bin   classics  etc   lib    lib64   media  my_bin  proc  run   srv       sys  txt.txt  var
 ..  alenamas    boot  dev       home  lib32  libx32  mnt    opt     root  sbin  sumbulov  tmp  usr      w_gromov**
 
-## ЗАДАНИЕ 14 - 
+## TASK 14 - 
 
 `root@d4e8f3ca43df:/ ls -l`
 
@@ -180,20 +180,20 @@ drwxr-xr-x   1 root root 4096 Aug 27 07:27 var
 
 drwxrwxrwx   2 root root 4096 Oct 12 12:45 w_gromov
 
-## ЗАДАНИЕ 15 - 
+## TASK 15 - 
 
 `root@d4e8f3ca43df:/ ls -F`
 
 **alenamas/  boot/      dev/  home/  lib32@  libx32@  mnt/     opt/   root/  sbin@  sumbulov/  tmp/      usr/  w_gromov/
 bin@       classics/  etc/  lib@   lib64@  media/   my_bin/  proc/  run/   srv/   sys/       txt.txt*  var/**
 
-## ЗАДАНИУ  16 - 
+## TASK  16 - 
 
 `root@d4e8f3ca43df:/# cd classics`
 
 **root@d4e8f3ca43df:/classics#** 
 
-## ЗАДАНИЕ 17 - 
+## TASK 17 - 
 
 `root@d4e8f3ca43df:/# cd etc`
 
@@ -201,27 +201,29 @@ bin@       classics/  etc/  lib@   lib64@  media/   my_bin/  proc/  run/   srv/ 
 
 **root@d4e8f3ca43df:/etc/X11# **
 
-## ЗАДАНИЕ 18 - root@d4e8f3ca43df:~# pwd
+## TASK 18 - 
+root@d4e8f3ca43df:~# pwd
 
 **/root**
 
-## ЗАДАНИЕ 19 - root@d4e8f3ca43df:~cd /
+## TASK 19 - 
+root@d4e8f3ca43df:~cd /
 
 `root@d4e8f3ca43df:/# cd etc`
 
 **root@d4e8f3ca43df:/etc#**
 
-## ЗАДАНИЕ 20 - 
+## TASK 20 - 
 
 `root@d4e8f3ca43df:/etc# cd group`
 
 **bash: cd: group: Not a directory**
 
-## ЗАДАНИЕ 21 - 
+## TASK 21 - 
 
 **less passwd&&group**
 
-## ЗАДАНИЕ 22 - 
+## TASK 22 - 
 
 `root@d4e8f3ca43df:/etc# head -n 5 passwd`
 
@@ -235,7 +237,7 @@ sys:x:3:3:sys:/dev:/usr/sbin/nologin
 
 sync:x:4:65534:sync:/bin:/bin/sync
 
-## ЗАДАНИЕ 23 - 
+## TASK 23 - 
 
 `root@d4e8f3ca43df:/etc# head -n 3 passwd`
 
@@ -245,19 +247,19 @@ daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
 
-## ЗАДАНИЕ 24 - 
+## TASK 24 - 
 
 `root@d4e8f3ca43df:/etc# wc passwd`
 
 **33   38 1561 passwd**
   
-## ЗАДАНИЕ 25 - 
+## TASK 25 - 
 
 `root@d4e8f3ca43df:/# cd student`
 
 **root@d4e8f3ca43df:/student#**
 
-## ЗАДАНИЕ 26 - 
+## TASK 26 - 
 
 `root@d4e8f3ca43df:/student# touch file1`
 
@@ -269,7 +271,7 @@ bin:x:2:2:bin:/bin:/usr/sbin/nologin
 
 **file1  file2  file3**
 
-## ЗАДАНИЕ 27 - 
+## TASK 27 - 
 
 `root@d4e8f3ca43df:/student# mkdir dir1`
 
@@ -281,7 +283,7 @@ bin:x:2:2:bin:/bin:/usr/sbin/nologin
 
 **dir1  dir2  dir3  file1  file2  file3**
 
-## ЗАДАНИЕ 28 - 
+## TASK 28 - 
 
 `root@d4e8f3ca43df:/student# cp file1 dir1`
 
@@ -295,11 +297,11 @@ bash: tree: command not found
 
 **file1**
 
-## ЗАДАНИЕ 29 - 
+## TASK 29 - 
 
 **root@d4e8f3ca43df:/etc# cp ssh ../dir2/**
 
-## ЗАДАНИЕ 30 - 
+## TASK 30 - 
 
 `root@d4e8f3ca43df:/student/dir3# mkdir hackerfiles` 
 
